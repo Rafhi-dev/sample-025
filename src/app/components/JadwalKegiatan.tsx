@@ -9,6 +9,7 @@ export default function JadwanKegiatan() {
             
             <button className="bg-red-500 py-2 px-6 text-white font-medium rounded-lg hover:bg-red-600 hover:scale-105 transform-all duration-600 ">Lihat lebih lanjut</button>
         </div>
+        
         {/* Grid 2 */}
         <div className="flex flex-row gap-4">
             <div className="bg-white rounded-lg shadow-lg w-[290px] h-[530px] p-4 space-y-4 ">

@@ -1,3 +1,4 @@
+import FooterSection from "../components/footerSection";
 import JadwanKegiatan from "../components/JadwalKegiatan";
 import Layanan from "../components/Layanan";
 import MitraKami from "../components/Mitra";
@@ -8,7 +9,6 @@ interface itemType {
   img: string,
   btn: string
 }
-
 export default function Home() {
 
   const itemLayanan: itemType[] = [
@@ -21,6 +21,15 @@ export default function Home() {
     {title: "Sertifikasi GRCCE", img: "grccp.png", btn: "lihat selengkapnya"},
   ]
 
+  const setKontak = 
+    {alamat: "gedung alumni IPB ruang 105 C, jl Padjajaran, tegallega, bogor tengah", telp: "0821-1005-XXXX" , email: "lspgrc.mail@gmail.com"}
+  
+
+  const setInformasi = [
+    {menu: "Jadwal Sertifikas", url: "/event"},
+    {menu: "karir", url: "/karir"},
+    {menu: "FAQ", url: "/faq"}
+  ]
   return (
     <div className="relative min-h-full bg-[#222935]"> {/* Background utama #222935 */}
       <div className="absolute inset-0 z-0">
@@ -70,8 +79,10 @@ export default function Home() {
           </div>
         </div>
 
-        {/*Section Footer*/}
-        <div className="bg-[#1F2937] h-[328px]"></div>
+        {/*Section Footer #1F2937*/}
+        <div className="bg-[#1F2937] h-full">
+        <FooterSection kontak={setKontak} informasi={setInformasi} />
+        </div>
       </div>
     </div>
   );
