@@ -46,12 +46,15 @@ export default function Home() {
             <div className="text-justify">Skema sertifikasi yang dikembangkan oleh LSP GRC mengacu kepada SKK Khusus yang disusun oleh Asosiasi GRC/IGRC (Indonesian Governance Risk Compliance) yang telah disahkan oleh Kementrian Tenaga Kerja. Skema-skema tersebut disesuaikan dengan kebutuhan pengembangan GRC pada organisasi bisnis dan non bisnis di tanah air</div></div>
             <div id="grid-2">   
               <div className="flex flex-row gap-4">
-                <div className="flex-1"><img src="gambar1.jpg" className="rounded-[10px]" alt="Logo" /></div>
+                <div className="flex-1">
+                  <img src="gambar1.jpg" className="rounded-[10px]" alt="Logo" /></div>
                 
-                <div className="flex-1"><img src="gambar2.jpg" className="rounded-[10px]" alt="Logo" /></div>
+                <div className="flex-1">
+                  <img src="gambar2.jpg" className="rounded-[10px]" alt="Logo" /></div>
               </div>
               <div className="flex mt-6">
-                <div className="flex-1"><img src="gambar3.jpg" className="h-60 w-full rounded-[10px]" alt="Logo" /></div>
+                <div className="flex-1">
+                  <img src="gambar3.jpg" className="h-60 w-full rounded-[10px]" alt="Logo" /></div>
               </div>
             </div>
           </div>
